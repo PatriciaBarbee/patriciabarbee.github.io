@@ -1,0 +1,29 @@
+/* Patricia A. Barbee — Launch Site. Honey gold, black, white. Plain and sturdy. */
+:root{
+  --gold:#E8A812; --gold-deep:#B97F06; --ink:#141414; --paper:#FFFDF7;
+  --soft:#F7EFD8; --line:#E4D9BE;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:var(--paper);color:var(--ink);line-height:1.6}
+header{background:var(--ink);color:#fff;padding:14px 20px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+header .brand{font-weight:bold;letter-spacing:.04em}
+header .brand .bee{color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin-left:16px;font-size:.95rem}
+nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(180deg,var(--soft),var(--paper));text-align:center;padding:56px 20px 40px;border-bottom:3px solid var(--gold)}
+.hero h1{font-size:2.4rem;margin:.2em 0}
+.hero .tag{color:var(--gold-deep);font-style:italic;font-size:1.15rem}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 56px}
+.rooms{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:28px 0}
+.room{border:1px solid var(--line);border-top:5px solid var(--gold);background:#fff;padding:20px;border-radius:6px}
+.room h3{margin-top:0}
+.room a{color:var(--gold-deep);font-weight:bold;text-decoration:none}
+.btn{display:inline-block;background:var(--gold);color:var(--ink);padding:10px 22px;border-radius:30px;text-decoration:none;font-weight:bold;border:2px solid var(--gold-deep)}
+.btn.ghost{background:transparent}
+section{margin:34px 0}
+h2{border-bottom:2px solid var(--gold);padding-bottom:6px}
+.small{font-size:.9rem;color:#555}
+footer{background:var(--ink);color:#ddd;text-align:center;padding:26px 16px;font-size:.9rem}
+footer .gold{color:var(--gold)}
+blockquote{border-left:4px solid var(--gold);margin:18px 0;padding:6px 16px;background:var(--soft);font-style:italic}
+.pending{background:#FFF3CD;border:1px dashed var(--gold-deep);padding:10px 14px;border-radius:6px;font-size:.92rem}
